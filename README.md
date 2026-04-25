@@ -1,25 +1,25 @@
-# 💰 Expense Tracker App
+#  Expense Tracker App
 
 A production-grade mobile expense tracker built with **Flutter** following **Clean Architecture** principles.
 
-## ✨ Features
-- **🔐 Liveness Verification**: Secure access with simulated liveness detection and lockout logic.
-- **📊 Advanced Analytics**: Visualize spending trends with interactive Pie, Bar, and Line charts.
-- **📅 Budget Management**: Set monthly limits per category and track progress with real-time status alerts.
-- **🔄 Recurring Transactions**: Automatically process daily, weekly, or monthly repeating expenses.
-- **📄 Data Export**: Generate and share CSV or PDF reports of your financial history.
-- **🌓 Theme Engine**: Seamlessly switch between Light, Dark, and System themes.
-- **💱 Multi-Currency**: Support for NGN, USD, EUR, GBP, and more.
-- **💾 Offline First**: Local data persistence using high-performance Hive storage.
+##  Features
+- ** Liveness Verification**: Secure access with simulated liveness detection and lockout logic.
+- ** Advanced Analytics**: Visualize spending trends with interactive Pie, Bar, and Line charts.
+- ** Budget Management**: Set monthly limits per category and track progress with real-time status alerts.
+- ** Recurring Transactions**: Automatically process daily, weekly, or monthly repeating expenses.
+- ** Data Export**: Generate and share CSV or PDF reports of your financial history.
+- ** Theme Engine**: Seamlessly switch between Light, Dark, and System themes.
+- ** Multi-Currency**: Support for NGN, USD, EUR, GBP, and more.
+- ** Offline First**: Local data persistence using high-performance Hive storage.
 
-## 🏗️ Architecture
+##  Architecture
 The project follows **Uncle Bob's Clean Architecture** with three distinct layers:
 
 1. **Domain Layer**: Contains Business Logic, Entities, and Use Cases. Completely independent of frameworks.
 2. **Data Layer**: Implements Repository interfaces, Data Sources (Hive, Secure Storage), and Models.
 3. **Presentation Layer**: UI implementation using BLoC (Business Logic Component) for state management.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Framework**: [Flutter](https://flutter.dev)
 - **State Management**: [flutter_bloc](https://pub.dev/packages/flutter_bloc)
 - **Dependency Injection**: [get_it](https://pub.dev/packages/get_it) & [injectable](https://pub.dev/packages/injectable)
@@ -28,7 +28,7 @@ The project follows **Uncle Bob's Clean Architecture** with three distinct layer
 - **Theming**: [flex_color_scheme](https://pub.dev/packages/flex_color_scheme)
 - **Testing**: [mocktail](https://pub.dev/packages/mocktail) & [bloc_test](https://pub.dev/packages/bloc_test)
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Flutter SDK (Latest Stable)
@@ -53,11 +53,11 @@ The project follows **Uncle Bob's Clean Architecture** with three distinct layer
    flutter run
    ```
 
-## 🧪 Testing
+##  Testing
 Run all unit and BLoC tests:
 ```bash
 flutter test
 ```
 
-## 📜 License
+##  License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
